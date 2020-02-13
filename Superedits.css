@@ -1,0 +1,43 @@
+/*
+To use this, put the following line at the top of your custom CSS:
+@import url(https://github.com/SuperDeath/SSD/Superedits.css);
+*/
+
+/* removes the stupid background on messages over hover */
+.mouse-mode .message-2qnXI6:hover {
+    background-color: transparent;
+}
+/* makes the unread thing in the center instead of the right, also rounds it */
+.unreadPill-2HyYtt {
+    left: 45%;
+    right: 50%;
+    border-radius: 10px;
+}
+/* gets rid of the pointy tip on the unread bar */
+.unreadPillCap-3_K2q2 {
+    display: none;
+}
+/* go back to the regular spacing between messages */
+.container-3FojY8 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+
+/* SSD */
+.message-2qnXI6 [src*='avatars/102009847792291840/'] + .username-1A8OIy::after {
+    content: ' Super ';
+    color: #843da4;
+    text-shadow: 0px 0px 2px #843da4, 0px 0px 4px #843da4;
+}
+
+/* get rid of the stupid emojis from the context popup */
+.emojiButton-jE9tXC.button-1ZiXG9, .emojiSeparator-10VgEJ.separator-42rNt0 {
+    display: none;
+}
+
+/* changes the color of the context menu and makes it a more appropriate size */
+.wrapper-2aW0bm {
+    transform: scale(0.6)
+}
